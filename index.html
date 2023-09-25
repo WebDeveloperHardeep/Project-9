@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <form id="form" onsubmit="return forsumbit()">
-     <input type="text" id="search" autofocus placeholder="search a Github User Here">    
+      <input
+        type="text"
+        id="search"
+        autofocus
+        placeholder="search a Github User Here"
+      />
     </form>
     <div id="main">
-        <div class="card">
-        </div>
-        <div>
-            <img class="avatar" src="https://picsum.photos/200" alt="Florin">
-        </div>
+      <div class="card"></div>
+      <div>
+        <img class="avatar" src="https://picsum.photos/200" alt="Florin" />
+      </div>
 
-        <div class="user-info">
-            <h2>name</h2>
-            <p>bio</p>
+      <div class="user-info">
+        <h2>name</h2>
+        <p>bio</p>
 
-            <ul class="info">
-                <li>###<strong>Followers</strong></li>
-                <li>###<strong>Following</strong></li>
-                <li>###<strong>Repositories</strong></li>
-            </ul>
+        <ul class="info">
+          <li>###<strong>Followers</strong></li>
+          <li>###<strong>Following</strong></li>
+          <li>###<strong>Repositories</strong></li>
+        </ul>
 
-            <div id="repositories">
-                <a class="repositories" href="#" target="_blank">Repositories 1</a>
-                <a class="repositories" href="#" target="_blank">Repositories 2</a>
-                <a class="repositories" href="#" target="_blank">Repositories 3</a>
-            </div>
+        <div id="repositories">
+          <a class="repositories" href="#" target="_blank">Repositories 1</a>
+          <a class="repositories" href="#" target="_blank">Repositories 2</a>
+          <a class="repositories" href="#" target="_blank">Repositories 3</a>
         </div>
+      </div>
     </div>
-</body>
+    <script src="js/app.js"></script>
+  </body>
 </html>
