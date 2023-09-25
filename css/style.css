@@ -55,3 +55,31 @@ input:focus {
   height: 150px;
   width: 150px;
 }
+
+.user-info {
+  color: #eee;
+  margin-left: 2rem;
+}
+
+.user-info h2 {
+  margin-top: 0;
+}
+
+.user-info ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  width: 400px;
+}
+
+.user-info ul li {
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.user-info ul li strong {
+  font-size: 0.9;
+  margin-left: 0.5rem;
+}
